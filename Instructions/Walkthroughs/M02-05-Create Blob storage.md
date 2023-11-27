@@ -53,7 +53,7 @@ In this task, we will create a Blob container and upload a blob file.
 
     ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/M02-0502.png)
 
-4. Open a new browser window and search **Bing** for an image of a flower. Right click on the image and save it to your VM. 
+4. Open a new browser window and search **Bing** for an image of a flower. Right click on the image and save it to your device. 
 
 6. Back in the Portal, click on **container1** , and then select **Upload**.
 
