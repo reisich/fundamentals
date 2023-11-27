@@ -52,7 +52,8 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
-    -PublicIpAddressName "myPublicIpPS"
+    -PublicIpAddressName "myPublicIpPS" `
+    -EncryptionAtHost $false
     ```
 
     >**Note**: If an error message appears that the resource group does not exist, execute the following command first: <br />
