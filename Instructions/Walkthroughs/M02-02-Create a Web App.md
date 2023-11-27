@@ -3,6 +3,7 @@ wts:
     title: '02 - Create a Web App (10 min)'
     module: '02 - Azure Architecture & Services'
 ---
+
 # 02 - Create a Web App (10 min)
 
 In this walkthrough, we will create a web app that runs a Docker container. The Docker container contains a Welcome message. 
@@ -51,7 +52,7 @@ In this task, we will test the web app.
 
 2. From **Notifications** click **Go to resource**. 
 
-3. On the **Overview** blade, locate the **URL**. Copy the URL to the clipboard.
+3. On the **Overview** blade, locate the **Default Domain**. Copy the URL to the clipboard.
 
     ![Screenshot of the web app properties blade. The URL is highlighted.](../images/M02-0201.png)
 

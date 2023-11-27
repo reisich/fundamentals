@@ -19,17 +19,11 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
    
 3. In the Welcome to Azure Cloud Shell dialog, when prompted to select either **Bash** or **PowerShell**, select **Bash**. 
 
-4. A new window will open stating **You have no storage mounted**. Select **advanced settings**.
-
-5. In the advanced settings screen, fill in the following fields, then click Create Storage:
-    - Resource Group: Click on **Create new** <br /> Name: **09-vm-cli**
-    - Storage Account: Create a new account a use a globally unique name (ex: cloudshellxyzstorage)
-    - File Share: Create a new one and name it cloudshellfileshare
-
-
 # Task 2: Use CLI to create a virtual machine
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.
+
+>**Note**: Open a notepad on the virtual machine and copy the Powershell/Bash commands into it first. From the notepad it can then be pasted into the browser by right clicking "copy" and "paste as plain text". 
 
 1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
 
@@ -48,7 +42,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     az vm create \
     --name myVMCLI \
     --resource-group 09-vm-cli \
-    --image UbuntuLTS \
+    --image ubuntu2204 \
     --location EastUS2 \
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234
